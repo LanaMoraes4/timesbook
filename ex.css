@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header>nav>div>img{align-items: center;
+  width: 233px;
+  height: 61px;
+  margin-top: 5px;
+  margin-left: 5px;
+ 
+}
+.aparte{ 
+  display: flex;
+  padding-right: 50px;
+ gap: 10px;
+}
+path {
+    fill: #fff;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+   align-items: center;
+}
+header{
+   padding: 5px;
+   background-color:#1F4D4C;
+  
+}
+label,input{
+  width: 32%;
+  margin-left: 15%;
+  margin-top: 40px;
+  border-radius: 12px;
+  padding: 12px;
+}
+h3{
+ margin-left: 5%; 
+ margin-top: 40px; 
+}
+.livros{
+  columns: 12;
+  margin-top: 3%;
+margin-left: 5%;
+margin-right: 5%;
+
+}
+.lupa{
+  text-align: center;
+  margin-left: 23%;
+  position: relative;
+  bottom: 33px;
+}
+.final{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 20px;
+}
+.final2{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+body{
+  background-color: #F7FAFA;}
+.style{
+  
+  border: none;
+    height: 5px;
+    background-color:#F57345 ;
+   
+ 
+}
+
+.livro25,
+.livro26 {
+  position: relative;
+  bottom: 23px;
+}
+
+footer {
+  margin-left: -10px;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 30px 40px;
+  margin-top: 90px;
+  flex-grow: 1;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+
+}
+
+.footer-coluna h4 {
+  margin-bottom: 10px;
+  font-size: 14px;
+  border-bottom: 1px solid #000;
+  padding-bottom: 5px;
+}
+
+.footer-coluna ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-coluna>ul>li {
+  margin-bottom: 8px;
+}
+
+.footer-coluna>ul>li>a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.footer-coluna>ul>li>a:hover {
+  text-decoration: underline;
+}
+.numero{
+  display: flex;
+}
+h6{
+  margin-bottom: 10px;
+  font-size: 12px;
+  border-bottom: 2px solid #F57345;
+  padding-bottom: 5px;
+}
+.footer-idioma h4 {
+  margin-bottom: 10px;
+  font-size: 14px;
+  border-bottom: 1px solid #000000;
+  padding-bottom: 5px;
+}
+
+.footer-idioma ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-idioma>ul>li {
+  margin-bottom: 1px;
+}
+
+.footer-idioma>ul>li>a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.footer-idioma>ul>li>a:hover {
+  text-decoration: underline;
+}

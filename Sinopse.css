@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins"; }
+
+header>nav>div>img{
+  align-items: center;
+  width: 233px;
+  height: 61px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.icones-separados{ 
+  display: flex;
+  padding-right: 50px;
+ gap: 10px;
+}
+path {
+    fill:#e9fcfd;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+   align-items: center;
+}
+header{
+   padding: 5px;
+   background-color:#1F4D4C;
+}
+.style2{
+  border: none;
+    height: 5px;
+    background-color:#F57345 ;
+}
+.path2{
+  fill:goldenrod;
+}
+.img{
+  text-align: center;
+}
+
+.article{
+padding: 15px;
+ align-items: center;
+  text-align: center;
+  
+
+  }
+  
+  .hr2{
+border: none;
+    height: 2px;
+    background-color: #0D8189;
+  }
+  .nota{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .autora{
+display: flex;
+justify-content: center;
+align-items:center;
+  }
+  h1{
+    text-align: center;
+  }
+  .avaliações{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 5%;
+    margin-top: 10px;
+  }
+
+  .edit-button {
+  background-color:#0D8189;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-top: 12px;
+}
+.edit-button:hover {
+  background-color:#8FD5D5;
+}
+.textoavalia{
+  margin-left: 10%;
+}
+.botaoavalia{
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color:#8FD5D5;
+  width: 10%;
+  border: none;
+}
+ 

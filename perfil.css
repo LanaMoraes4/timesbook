@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins"; }
+
+header>nav>div>img{
+  align-items: center;
+  width: 233px;
+  height: 61px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.icones-separados{ 
+  display: flex;
+  padding-right: 50px;
+ gap: 10px;
+}
+path {
+    fill:#e9fcfd;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+   align-items: center;
+}
+header{
+   padding: 5px;
+   background-color:#1F4D4C;
+}
+.perfil {
+  display: flex;
+  align-items: center;
+ justify-content: space-between;
+  background-color: white;
+  margin-left: 10%;
+  margin-right: 20%;
+  padding: 10px;
+
+}
+
+.perfil-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  
+}
+
+.nomedeperfil {
+  font-size: 22px;
+  font-weight: 550;
+  position: relative;
+  right: 200px;
+}
+
+.info-perfil {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+ margin-right: 30%;
+}
+
+.bio-segui {
+  flex-direction: column;
+}
+.edit-button {
+  background-color: #e9fcfd;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 10px;
+ 
+}
+
+.edit-button:hover {
+  background-color: #d0f6f8;
+}
+.bio-descriçao{
+margin-left: 12%;
+margin-top: 10px;
+}
+.path2{
+  fill: black;
+}
+.meio{
+ display: flex;
+ justify-content: space-evenly;
+ margin-top: 20px;
+
+}
+.quadradometa{
+ gap: 100px;
+background-color:#B8E5E5;
+border-radius: 40px;
+padding: 30px 40px;
+width: 100%;
+margin-right: 20%;
+
+}
+.icone{
+ background-color:#B8E5E5;
+border-top-left-radius:  20px;
+border-top-right-radius: 20px;
+ width: 9%;
+margin-top: 10px;
+
+}
+
+.meta{
+  display: flex;
+  justify-content: space-between;
+  gap: 220px;
+   margin: 10px;
+}
+.livroebarra {
+      display: flex;
+      flex-direction: column;
+    }
+.livros{
+  display: flex;
+  justify-content: center; 
+  gap: 48px;
+}
+.barra {
+      margin-top: 5px; 
+    }
+    .livre{
+      margin-left: 50px;
+      margin-top: 14px;
+    }
+    .style{
+  border: none;
+    height: 20px;
+    background-color:#1F4D4C ;
+    border-radius: 15px;
+}
+.relogio{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5px;
+  align-items: center;
+  margin-left: 12px;
+  margin-top: 20px;
+}
+.horas{
+  display: flex;
+  align-items: center;
+
+}
+.style2{
+  border: none;
+    height: 5px;
+    background-color:#F57345 ;
+}
+.final{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 20px;
+}
+.final2{
+  display: flex;
+  justify-content: center;
+  gap: 50px;}
+
+  footer {
+  margin-left: -10px;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 30px 40px;
+  margin-top: 90px;
+  flex-grow: 1;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+
+}
+
+.footer-coluna h4 {
+  margin-bottom: 10px;
+  font-size: 14px;
+  border-bottom: 1px solid #000;
+  padding-bottom: 5px;
+}
+
+.footer-coluna ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-coluna>ul>li {
+  margin-bottom: 8px;
+}
+
+.footer-coluna>ul>li>a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.footer-coluna>ul>li>a:hover {
+  text-decoration: underline;
+}
+.numero{
+  display: flex;
+}
+h6{
+  margin-bottom: 10px;
+  font-size: 12px;
+  border-bottom: 2px solid #F57345;
+  padding-bottom: 5px;
+}
+.footer-idioma h4 {
+  margin-bottom: 10px;
+  font-size: 14px;
+  border-bottom: 1px solid #000000;
+  padding-bottom: 5px;
+}
+
+.footer-idioma ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-idioma>ul>li {
+  margin-bottom: 1px;
+}
+
+.footer-idioma>ul>li>a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.footer-idioma>ul>li>a:hover {
+  text-decoration: underline;
+}
